@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    height: 60px;
+}
+.logo img{
+   width: 120px;
+}
+.nav-btns{
+    display: flex;
+    margin-right: 20px;
+}
+.join-now{
+    background-color: #E50914;
+    color: white;
+    border: none;
+
+}
+.sign-in{
+    background-color: black;
+    color: white;
+    border-color: white ;
+   
+   border-radius: 1px;
+   border-style: solid;
+   
+    
+}
+.join-now,.sign-in{
+    padding: 8px 20px;
+   border-radius: 2px;
+  margin-right: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.sign-in:hover{
+    opacity: 0.8;
+}
+.join-now:hover{
+    opacity: 0.8;
+}
+
+
+/* section-one */
+.section-one{
+    display: inline-block;
+    padding: 50px;
+  
+   
+}
+
+.movie{
+   font-size: 50px;
+   font-weight: bolder;
+   color: white;
+ 
+}
+.movies-line{
+    font-size:18px;
+    font-weight: lighter;
+    color: white;  
+    margin-top: 20px;
+    line-height: 120%;
+}
+.popular-on-netflix{
+    color: white;
+    margin-left: 49px;
+    margin-bottom: 20px;
+    font-size: larger;
+    padding: 5px;
+    margin-top: 12px;
+
+ }
+
+ /* .section-two span{
+    color: white;
+    font-weight: 400;
+    margin-left: 35px;
+    margin-top: 18px;
+ }
+.img-box{
+    display: flex;
+    flex-direction: column;
+   
+    margin-left: 49px;
+   
+}
+.img-box img{
+    width: 300px;
+} */
+
+/* CSS */
+/* .section-two {
+    display: flex; 
+    /* flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px; 
+
+
+.img-box {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+} */
+
+.img-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-two{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.img-box img {
+    width: 300px;
+}
+
+.section-two span {
+    color: white;
+    font-weight: 400;
+    margin-top: 18px;
+    text-align: center; 
+    font-weight: bold;
+}
+
+/* adventure */
+.img-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-two-adventure{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.img-box img {
+    width: 300px;
+}
+
+.section-two-adventure span {
+    color: white;
+    font-weight: 400;
+    margin-top: 18px;
+    text-align: center; 
+    font-weight: bold;
+}
+
+/* horror */
+
+
+.img-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-two-horror{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.img-box img {
+    width: 300px;
+    cursor: pointer;
+}
+
+.section-two-horror span {
+    color: white;
+    font-weight: 400;
+    margin-top: 18px;
+    text-align: center; 
+    font-weight: bold;
+}
+
+/* more description */
+
+.container-join{
+    color: white;
+    text-align: center;
+    margin: 60px;
+}
+.join-heading{
+    font-size: 35px;
+    margin: 20px;
+}
+.join-paragraph{
+    font-size: 20px;
+    margin: 15px;
+}
+.join-btn-description{
+    color: white;
+    background-color: red;
+    padding: 14px 34px;
+    border-radius: 2px;
+   margin-right: 10px;
+   font-weight: 500;
+   cursor: pointer;
+   border: none;
+   border-radius: 3px;
+   font-size: 18px;
+  margin: 20px;
+}
+
+
+
